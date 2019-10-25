@@ -1,0 +1,28 @@
+{
+  "name": "NodeJsStart",
+  "version": "1.0.0",
+  "description": "Dillinger is a cloud-enabled, mobile-ready, offline-storage, AngularJS powered HTML5 Markdown editor.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "tslint --project tsconfig.json './src/**/*.ts'",
+    "dev": "nodemon src/index.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vladpanosyan/NodeJsStart.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vladpanosyan/NodeJsStart/issues"
+  },
+  "homepage": "https://github.com/vladpanosyan/NodeJsStart#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@types/node": "^12.11.2",
+    "ts-node": "^8.4.1",
+    "tslint": "^5.20.0",
+    "typescript": "^3.6.4"
+  }
+}
